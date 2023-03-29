@@ -1,6 +1,10 @@
 # holbertonschool-monty
 0x19. C - Stacks, Queues - LIFO, FIFO
 
+# Resources
+
+[thing that helps make sure your error messages actually go to stderr](https://github.com/sickill/stderred)
+
 # Task 0 - Push, Pall
 
 we want an "opcode" called "push" that pushes an element to the stack
