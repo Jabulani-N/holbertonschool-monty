@@ -21,4 +21,8 @@ from that we'll learn how to make an opcode in general.
 
 - biggest deal is we msut learn how this "opcode" works. besides that, we're just playing with a linked list.
 
+- - looks like it's just a normal code, looking at someone else's.
+
+- - consider further looking, to be sure there really is nothing odd about this project.
+
 
