@@ -17,9 +17,9 @@ we want another "opcode" called "pall" that Prints All values in the stack, from
 
 **Learn how to create an opcode**
 
-- Opcodes seem to mean codes that work when in the main terminal you say "codeName argument" and it just goes.
+- Opcodes seem to mean codes that add bash commands.
 
-- - like how we do "betty file" or "valgrind ./a.out"
+- - like how we do "betty fileName" or "valgrind ./a.out"
 
 **Learn how to make a variable or mallocced memory accessible from any program**.
 
