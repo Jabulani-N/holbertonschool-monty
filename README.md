@@ -13,16 +13,21 @@ we want an "opcode" called "push" that pushes an element to the stack
 
 we want another "opcode" called "pall" that Prints All values in the stack, from top (last?) to bottom
 
-## To-do
+## To-Do
 
-we need to learn what an opcode is, or maybe just look how to make an opcode that does the first task.
+**Learn how to create an opcode**
 
-from that we'll learn how to make an opcode in general.
+- Opcodes seem to mean codes that work when in the main terminal you say "codeName argument" and it just goes.
 
-- biggest deal is we msut learn how this "opcode" works. besides that, we're just playing with a linked list.
+- - like how we do "betty file" or "valgrind ./a.out"
 
-- - looks like it's just a normal code, looking at someone else's.
+**Learn how to make a variable or mallocced memory accessible from any program**.
 
-- - consider further looking, to be sure there really is nothing odd about this project.
+- in order to have all of "push", "pall", and free as independant opcodes.
+
+- - they need to be able to work without any of the others telling them
+
+- - - possibly, the "push" opcode that creates the "stack" can declare another variable with a set name that holds the address of the malloced stack
+
 
 
