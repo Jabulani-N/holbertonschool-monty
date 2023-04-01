@@ -1,3 +1,7 @@
+#it seems we're working with integers thath get read as char
+push 97
+
+#adding this 97 here added an extra a before the final y
 push 97
 
 push 87
@@ -6,7 +10,7 @@ push 87
 				               push 32
 
 
-
+#it looks like comments in bytecode are done via single hash
         push 101
 	push 104
 	#crazy 84 sh17 inbound

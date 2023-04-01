@@ -6,7 +6,8 @@ void push_monty(stack_t **stack, unsigned int line_number)
   unsigned int j = 1;
   int n;
   char *errMsg1 = ": usage: push integer\n";
-
+/*glob is a global_s structue declared in main.h*/
+  /*glob.op_arg means the op_arg slot in that structure named glob*/
   if (!(glob.op_arg))
     free_stack(stack, errMsg1);
   if (!((glob.op_arg[0] >= '0' && glob.op_arg[0] <= '9')

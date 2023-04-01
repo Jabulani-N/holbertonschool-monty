@@ -8,6 +8,8 @@ struct global_s glob;
  * @argv: array of input args
  * Return: Always 0 on completion, otherwise 1 on exit fail
  */
+
+/*this int main has input arguemnts, so it may not even be the very first thing triggered*/
 int main(int argc, char *argv[])
 {
   stack_t *stack_prime = NULL;
