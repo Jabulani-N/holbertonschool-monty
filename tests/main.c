@@ -5,10 +5,10 @@
 
 int main (void)
 {
-	char *string = "strings letters"
+/*	char *string = "strings letters"
 
 	_echo("");
-	return(0);
+*/	return(0);
 }
 
 

@@ -6,7 +6,7 @@ I also created a hardlink (symlink didn't have permission, which in hindsight is
 
 - ln -iv source/address link/target/address
 
-### [ ] Learn how to create an opcode
+### [\_] Learn how to create an opcode
 
 - this can be tested with a "_echo" opcode that prints 1 argument I give it
 
@@ -22,7 +22,7 @@ it is, however, teh same thing the pre-tasks example does, so it's worth keeping
 
 ### Test your opcode compilation with a "\_echo" that printf's what you give it
 
-### [ ] Learn how to share varaibles
+### [\_] Learn how to share varaibles
 
 test in a subfolder with a simple main and function file that prints a var declared outside itself.
 
