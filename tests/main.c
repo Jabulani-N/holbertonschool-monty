@@ -2,13 +2,14 @@
  *
  */
 
-
+#include "main.h"
 int main (void)
 {
-/*	char *string = "strings letters"
+/*[✓]let's try a basic printf.*/
+/*[_] when printf works, let's try maknig a printf that prints the argumrnt input int*/
 
-	_echo("");
-*/	return(0);
+	printf("I got a program to print!!!!\n");
+	return(0);
 }
 
 
