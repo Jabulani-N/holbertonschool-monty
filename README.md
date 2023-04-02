@@ -1,6 +1,10 @@
 # holbertonschool-monty
 0x19. C - Stacks, Queues - LIFO, FIFO
 
+tsets/main.c has how to print.
+
+tests/...livecode/main.c has how to read input arguments
+
 # Resources
 
 [thing that helps make sure your error messages actually go to stderr](https://github.com/sickill/stderred)
