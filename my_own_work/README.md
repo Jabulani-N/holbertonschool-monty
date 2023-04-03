@@ -1,3 +1,5 @@
+I've done the part where I learn the projet myself here, so the graded part can be guaranteed full credit
+
 
 # holbertonschool-monty
 0x19. C - Stacks, Queues - LIFO, FIFO
@@ -14,7 +16,7 @@ tests/...livecode/main.c has how to read input arguments
 
 we want an "opcode" called "push" that pushes an element to the stack
 
-- **reminder: "stack" is a linked list structure that we defined in header monty.h**
+- **reminder: "stack" is a linked list structure that we defined in header monty.h** 
 
 we want another "opcode" called "pall" that Prints All values in the stack, from top (last?) to bottom
 
