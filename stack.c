@@ -1,8 +1,3 @@
-/*
- * File: stack.c
- * Auth: Bennett Dixon
- *       Brennan D Baraban
- */
 
 #include "monty.h"
 #include <string.h>
@@ -18,14 +13,14 @@ int check_mode(stack_t *stack);
  */
 void free_stack(stack_t **stack)
 {
-  stack_t *tmp = *stack;
+	stack_t *tmp = *stack;
 
-  while (*stack)
-    {
-      tmp = (*stack)->next;
-      free(*stack);
-      *stack = tmp;
-    }
+	while (*stack)
+	{
+		tmp = (*stack)->next;
+		free(*stack);
+		*stack = tmp;
+	}
 }
 
 /**
@@ -38,19 +33,19 @@ void free_stack(stack_t **stack)
  */
 int init_stack(stack_t **stack)
 {
-  stack_t *s;
+	stack_t *s;
 
-  s = malloc(sizeof(stack_t));
-  if (s == NULL)
-    return (malloc_error());
+	s = malloc(sizeof(stack_t));
+	if (s == NULL)
+		return (malloc_error());
 
-  s->n = STACK;
-  s->prev = NULL;
-  s->next = NULL;
+	s->n = STACK;
+	s->prev = NULL;
+	s->next = NULL;
 
-  *stack = s;
+	*stack = s;
 
-  return (EXIT_SUCCESS);
+	return (EXIT_SUCCESS);
 }
 
 /**
@@ -64,9 +59,10 @@ int init_stack(stack_t **stack)
  */
 int check_mode(stack_t *stack)
 {
-  if (stack->n == STACK)
-    return (STACK);
-  else if (stack->n == QUEUE)
-    return (QUEUE);
-  return (2);
+	if (stack->n == STACK)
+		return (STACK);
+	else if (stack->n == QUEUE)
+		return (QUEUE);
+	return (2);
 }
+
